@@ -10,6 +10,7 @@ public class Application {
 	
 	@Test
 	public void applicationTest() throws IOException {
+		//Making changes to the script after R1.1
 		String[][] data = GenericMethods.getData("D:\\SelJun30\\TestData.xlsx", "Sheet2");
 		for(int i =1; i<data.length;i++) {
 			switch(data[i][3]) {
